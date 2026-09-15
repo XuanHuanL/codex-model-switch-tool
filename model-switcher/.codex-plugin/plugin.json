@@ -1,0 +1,18 @@
+{
+  "name": "model-switcher",
+  "version": "1.0.0+codex.20260915110530",
+  "description": "在 DeepSeek 与 ChatGPT（内置 OpenAI 默认）两套 Codex 模型配置之间快速切换。",
+  "author": {
+    "name": "Xuanhua"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Model Switcher",
+    "shortDescription": "一键在 DeepSeek 与 ChatGPT 配置间切换模型",
+    "longDescription": "改盘式切换 Codex 的模型后端：写入或移除 DeepSeek 覆盖层，回到内置 OpenAI 默认。写前备份、写后校验、失败自动回滚；切换后重启 Codex 生效。",
+    "developerName": "Xuanhua",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": "切换到 DeepSeek 配置"
+  }
+}
